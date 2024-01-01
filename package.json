@@ -9,7 +9,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caromin/testPackageChristian"
+  },
+  "private": false,
   "dependencies": {
     "@angular/animations": "^16.1.8",
     "@angular/cdk": "^16.1.8",
